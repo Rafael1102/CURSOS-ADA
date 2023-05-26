@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabbelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+
+
+            <table border="1">
+                <thead>
+                    <!--define o cabeçalho da tabela-->
+                    <tr>
+                        <!-- tr é celula -->
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Matricula</th>
+                    </tr>
+                </thead>
+
+                
+                <tbody>
+                    <!-- o corpo da tabela -->
+                    <tr>
+                        <!-- faz uma linha -->
+                        <td>Carol Danvers</td> <!-- td são celulas -->
+                        <td>Carol.Da@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Petter park</td>
+                        <td>homemarranha@gmail.com</td>
+                        <td>2</td>
+                    </tr>   
+                        
+                    <tr>
+                        <td>ironman</td>
+                        <td>tonny2452@gmail.com</td>
+                        <td>3</td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="financeiro">
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">26/06/2023</td> <!-- rowspan mesclagem de coluna, nÃo esqueça de apagar a linha de baixo -->
+                        <td colspan="2">Despesa</td>
+                        <!-- <td>Compra do mês</td> -->
+                        <td>R$ 2000,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salario</td>
+                        <td>R$ 2700,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
